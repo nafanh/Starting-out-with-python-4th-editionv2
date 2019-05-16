@@ -4,7 +4,7 @@ def rainfall_generator():
         monthly_rain = float(input("Enter rain for month {}: ".format(i+1)))
         rainfall_list.append(monthly_rain)
     return rainfall_list
-
+#test
 def rainfall_total(a):
     total = 0
     for monthly_rain in a:
